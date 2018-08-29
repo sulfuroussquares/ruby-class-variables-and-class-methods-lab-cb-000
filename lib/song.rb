@@ -41,7 +41,7 @@ def self.genres
   @@genres.uniq
 end
 
-  
+
 def self.genre_count
    @@genres.each { |genre|
      @@genre_count[genre] = @@genres.count(genre)
